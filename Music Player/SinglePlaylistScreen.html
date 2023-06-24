@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Playlist Screen</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- homescreen stylesheet -->
+    <link rel="stylesheet" href="SinglePlaylistScreen.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <header class="homescreen-header flex">
+
+        <nav class="navbar">
+
+            <!-- left of the navbar -->
+            <div class="navbar-left">
+                <div class="music-player-logo">
+                    <img src="./assets/music-player-logo.png" alt="Music Player Logo">
+                </div>
+                <div class="music-player-name">
+                    <!-- <h2>Sigma JukeBox</h2> -->
+                    <h1>Sigma JukeBox</h1>
+                </div>
+                <div class="favourites">
+                    <h4>Favourites</h4>
+                </div>
+            </div>
+
+            <!-- right of the navbar -->
+            <div class="navbar-right">
+                <div class="searchbox">
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <span>
+                        <input type="text" name="search" placeholder="Search">
+                    </span>
+                    <span><i class="fa-sharp fa-solid fa-microphone"></i>
+                    </span>
+                </div>
+                <div class="notification-bell">
+                    <i class="fa-sharp fa-solid fa-bell"></i>
+                </div>
+                <div class="profile-pic">
+                    <img src="./assets/profile-picture.png" alt="Profile Picture">
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main class="wrapper">
+
+        <!-- Single Artist Carousel  -->
+
+        <div class="single-playlist-carousel">
+            <div class="artist-hero-image">
+                <img src="./assets/himesh-reshammiya.jpg" alt="Himesh Reshammiya">
+            </div>
+            <div class="about-artist">
+                <div class="artist-name">
+                    <h1>Himesh Reshammiya</h1>
+                </div>
+                <div class="artist-desc">
+                    <p>
+                        Himesh Reshammiya (born 23 July 1973) is an Indian playback singer, music director, songwriter,
+                        film & music producer and actor in Hindi cinema. He started his career as music director in the
+                        film Pyaar Kiya To Darna Kya in 1998 and made his acting debut with the film Aap Kaa Surroor in
+                        2007.
+                    </p>
+                </div>
+                <div class="follow-up">
+                    <div class="play-all">
+                        <a href="#">Play All</a>
+                    </div>
+                    <div>
+                        <h4>Follow On</h4>
+                    </div>
+                    <div class="social-media-icons">
+                        <a id="instagram" href="https://www.instagram.com/realhimesh/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a id="youtube" href="https://www.youtube.com/@HimeshReshammiyaMelodies" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                        <a id="facebook" href="https://www.facebook.com/HimeshReshammiyaOnline/" target="_blank">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- Artist Songs -->
+
+        <div class="latest-release-section">
+            <h4>All Popular Songs</h4>
+
+            <div class="latest-release-song">
+
+                <div class="latest-song">
+                    <a href="#">
+                        <img src="./assets/aap-kaa-surroor-song.jpg" alt="Aap ka Surroor">
+                    </a>
+                    <span class="song-details">
+                        <h5>Aap ka Suroor</h5>
+
+                    </span>
+
+                    <div class="song-duration">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p>4.37</p>
+                        </span>
+                    </div>
+
+                    <div class="download">
+                        <p>Now you can add this song in your download section
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="latest-release-song">
+
+                <div class="latest-song">
+                    <a href="#">
+                        <img src="./assets/tandoori-nights-song.jpg" alt="Tandoori Nights">
+                    </a>
+                    <span class="song-details">
+                        <h5>Tandori Night</h5>
+                    </span>
+
+                    <div class="song-duration">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p>4.37</p>
+                        </span>
+                    </div>
+                    <div class="download">
+                        <p>Now you can add this song in your download section
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="latest-release-song">
+
+                <div class="latest-song">
+                    <a href="#">
+                        <img src="./assets/aap-kaa-surroor-song.jpg" alt="Aap ka Surroor">
+                    </a>
+                    <span class="song-details">
+                        <h5>Aap ka Suroor</h5>
+
+                    </span>
+
+                    <div class="song-duration">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p>4.37</p>
+                        </span>
+                    </div>
+                    <div class="download">
+                        <p>Now you can add this song in your download section
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-release-song">
+
+                <div class="latest-song">
+                    <a href="#">
+                        <img src="./assets/tandoori-nights-song.jpg" alt="Tandoori Nights">
+                    </a>
+                    <span class="song-details">
+                        <h5>Tandori Night2</h5>
+                    </span>
+
+                    <div class="song-duration">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p>4.37</p>
+                        </span>
+                    </div>
+                    <div class="download">
+                        <p>Now you can add this song in your download section
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-release-song">
+
+                <div class="latest-song">
+                    <a href="#">
+                        <img src="./assets/aap-kaa-surroor-song.jpg" alt="Aap ka Surroor">
+                    </a>
+                    <span class="song-details">
+                        <h5>Aap ka Suroor</h5>
+
+                    </span>
+
+                    <div class="song-duration">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p>4.37</p>
+                        </span>
+                    </div>
+                    <div class="download">
+                        <p>Now you can add this song in your download section
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="latest-release-song">
+
+                <div class="latest-song">
+                    <a href="#">
+                        <img src="./assets/tandoori-nights-song.jpg" alt="Tandoori Nights">
+                    </a>
+                    <span class="song-details">
+                        <h5>Tandori Nights</h5>
+                    </span>
+
+                    <div class="song-duration">
+                        <span>
+                            <i class="fa-solid fa-ellipsis"></i>
+                            <p>4.37</p>
+                        </span>
+                    </div>
+                    <div class="download">
+                        <p>Now you can add this song in your download section
+                            <i class="fa-sharp fa-solid fa-download"></i>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Aside Queue -->
+
+    <aside class="aside-queue">
+        <!-- queue title -->
+        <div class="queue-title">
+            <h3>Recently Played Songs</h3>
+        </div>
+
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>01</h3>
+                <span>
+                    <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>02</h3>
+                <span>
+                    <img src="./assets/into-you-song.png" alt="into you song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>03</h3>
+                <span>
+                    <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>04</h3>
+                <span>
+                    <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>05</h3>
+                <span>
+                    <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>06</h3>
+                <span>
+                    <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>07</h3>
+                <span>
+                    <img src="./assets/into-you-song.png" alt="into you song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>08</h3>
+                <span>
+                    <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>09</h3>
+                <span>
+                    <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>10</h3>
+                <span>
+                    <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>11</h3>
+                <span>
+                    <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>12</h3>
+                <span>
+                    <img src="./assets/into-you-song.png" alt="into you song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>13</h3>
+                <span>
+                    <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>14</h3>
+                <span>
+                    <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+        <div class="queue-songs-list">
+            <div class="queue-song">
+                <h3>15</h3>
+                <span>
+                    <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                </span>
+                <p>On my way</p>
+                <span>
+                    <i class="fa-regular fa-heart"></i>
+                </span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Bottom music player -->
+
+    <div class="bottom-music-player">
+        <div class="single-track">
+            <div class="single-track-image">
+                <img src="./assets/gangnam-style-song.png" alt="gangnam style">
+            </div>
+            <p>Gangnam Style</p>
+            <span>
+                <i class="fa-solid fa-heart"></i>
+            </span>
+        </div>
+        <div class="main-music-player">
+            <span><i class="fa-solid fa-shuffle"></i></span>
+            <span><i class="fa-solid fa-backward"></i></span>
+            <span id="play-pause-btn"><i class="fa-solid fa-circle-pause"></i></span>
+            <span><i class="fa-solid fa-forward"></i></span>
+            <span><i class="fa-solid fa-repeat"></i></span>
+        </div>
+        <div class="other-options">
+            <span><i class="fa-solid fa-volume-high"></i></span>
+            <span><i class="fa-solid fa-volume-xmark"></i></span>
+            <span><i class="fa-solid fa-guitar"></i></span>
+            <span><i class="fa-solid fa-down-left-and-up-right-to-center"></i></span>
+        </div>
+    </div>
+
+</body>
+
+</html>

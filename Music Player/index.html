@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma Music Player</title>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!-- homescreen stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Main Container -->
+
+    <div class="conatiner">
+
+        <!-- Navbar -->
+
+        <header class="homescreen-header flex">
+            <nav class="navbar">
+
+                <!-- left of the navbar -->
+                <div class="navbar-left">
+                    <div class="music-player-logo">
+                        <img src="./assets/music-player-logo.png" alt="Music Player Logo">
+                    </div>
+                    <div class="music-player-name">
+                        <h1>Sigma JukeBox</h1>
+                    </div>
+                    <div class="favourites">
+                        <h4>Favourites</h4>
+                    </div>
+                </div>
+
+                <!-- right of the navbar -->
+                <div class="navbar-right">
+                    <div class="searchbox">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </span>
+                        <span>
+                            <input type="text" name="search" placeholder="Search">
+                        </span>
+                        <span><i class="fa-sharp fa-solid fa-microphone"></i>
+                        </span>
+                    </div>
+                    <div class="notification-bell">
+                        <i class="fa-sharp fa-solid fa-bell"></i>
+                    </div>
+                    <div class="profile-pic">
+                        <img src="./assets/profile-picture.png" alt="Profile Picture">
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+
+        <main class="wrapper">
+
+            <!-- Homescreen Carousel -->
+
+            <div class="homescreen-carousel">
+
+                <div class="carousel-1">
+                    <img src="./assets/latin-songs.jpg" alt="Latin Songs">
+                </div>
+                <div class="carousel-2">
+                    <img src="./assets/edm-cover.jpg" alt="Edm Songs">
+                </div>
+                <div class="carousel-3">
+                    <img src="./assets/pop-song-cover.jpg
+                    " alt="Pop Songs">
+                </div>
+            </div>
+
+            <!-- Latest Release Section -->
+
+            <div class="latest-release-section">
+                <h4>Latest Release</h4>
+
+                <div class="latest-release-song">
+
+                    <div class="latest-song">
+                        <a href="#">
+                            <img src="./assets/gangnam-style-song.png" alt="gangnam style">
+                        </a>
+                        <span class="song-details">
+                            <h5>Gangnam </h5>
+                            <h5>09-01-2023</h5>
+                        </span>
+
+                        <div class="song-duration">
+                            <span>
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <p>4.37</p>
+                            </span>
+                        </div>
+
+                        <div class="download">
+                            <p>Now you can add this song in your download section
+                                <i class="fa-sharp fa-solid fa-download"></i>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="latest-release-song">
+
+                    <div class="latest-song">
+                        <a href="#">
+                            <img src="./assets/gangnam-style-song.png" alt="gangnam style">
+                        </a>
+                        <span class="song-details">
+                            <h5>Gangnam </h5>
+                            <h5>09-01-2023</h5>
+                        </span>
+
+                        <div class="song-duration">
+                            <span>
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <p>4.37</p>
+                            </span>
+                        </div>
+                        <div class="download">
+                            <p>Now you can add this song in your download section
+                                <i class="fa-sharp fa-solid fa-download"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-release-song">
+
+                    <div class="latest-song">
+                        <a href="#">
+                            <img src="./assets/gangnam-style-song.png" alt="gangnam style">
+                        </a>
+                        <span class="song-details">
+                            <h5>Gangnam </h5>
+                            <h5>09-01-2023</h5>
+                        </span>
+
+                        <div class="song-duration">
+                            <span>
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <p>4.37</p>
+                            </span>
+                        </div>
+                        <div class="download">
+                            <p>Now you can add this song in your download section
+                                <i class="fa-sharp fa-solid fa-download"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="latest-release-song">
+
+                    <div class="latest-song">
+                        <a href="#">
+                            <img src="./assets/gangnam-style-song.png" alt="gangnam style">
+                        </a>
+                        <span class="song-details">
+                            <h5>Gangnam </h5>
+                            <h5>09-01-2023</h5>
+                        </span>
+
+                        <div class="song-duration">
+                            <span>
+                                <i class="fa-solid fa-ellipsis"></i>
+                                <p>4.37</p>
+                            </span>
+                        </div>
+                        <div class="download">
+                            <p>Now you can add this song in your download section
+                                <i class="fa-sharp fa-solid fa-download"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- I have made the Single Playlist Screen of Himesh Reshmmiya click on his photo to open the Single Playlist Screen -->
+
+            <!-- Popular Hindi Artists Section -->
+
+            <div class="popular-artist-section">
+
+                <div class="popular-artist-heading">
+                    <h4>Popular Hindi Artists</h4>
+                </div>
+                <div class="popular-artist-images">
+                    <div class="artist-image">
+                        <img src="./assets/arijit-singh.jpg" alt="Arijit Singh">
+                    </div>
+                    <div class="artist-image">
+                        <a href="./SinglePlaylistScreen.html" target="_blank"><img src="./assets/himesh-reshammiya.jpg" alt="Himesh Reshammiya">
+                        </a>
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/manoj-tiwari.jpg" alt="Manoj Tiwari">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/shreya ghoshal.jpg" alt="Shreya Ghoshal">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/sonu nigam.jpg" alt="Sonu Nigam">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/sunidhi-chauhan.jpg" alt="Sunidhi Chauhan">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Popular English Artists Section -->
+
+            <div class="popular-artist-section">
+                <div class="popular-artist-heading">
+                    <h4>Popular English Artists</h4>
+                </div>
+                <div class="popular-artist-images">
+                    <div class="artist-image">
+                        <img src="./assets/ariana-grande.png" alt="Ariana Grande">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/camila-cabello.jpg" alt="Camila Cabello">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/chris-brown.jpg" alt="Chris Brown">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/dj-snake.jpg" alt="DJ Snake">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/ed-sheeran.jpg" alt="Ed sheeran">
+                    </div>
+                    <div class="artist-image">
+                        <img src="./assets/marshmello.jpg" alt="Marshmello">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Aside Queue -->
+
+        <aside class="aside-queue">
+            <!-- queue title -->
+            <div class="queue-title">
+                <h3>Queue</h3>
+            </div>
+
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>01</h3>
+                    <span>
+                        <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>02</h3>
+                    <span>
+                        <img src="./assets/into-you-song.png" alt="into you song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>03</h3>
+                    <span>
+                        <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>04</h3>
+                    <span>
+                        <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>05</h3>
+                    <span>
+                        <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>06</h3>
+                    <span>
+                        <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>07</h3>
+                    <span>
+                        <img src="./assets/into-you-song.png" alt="into you song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>08</h3>
+                    <span>
+                        <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>09</h3>
+                    <span>
+                        <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>10</h3>
+                    <span>
+                        <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>11</h3>
+                    <span>
+                        <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>12</h3>
+                    <span>
+                        <img src="./assets/into-you-song.png" alt="into you song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>13</h3>
+                    <span>
+                        <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>14</h3>
+                    <span>
+                        <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>15</h3>
+                    <span>
+                        <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>16</h3>
+                    <span>
+                        <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>17</h3>
+                    <span>
+                        <img src="./assets/into-you-song.png" alt="into you song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>18</h3>
+                    <span>
+                        <img src="./assets/mi-gente-song.jpg" alt="mi gente song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>19</h3>
+                    <span>
+                        <img src="./assets/lean-on-song.png" alt="lean on song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>20</h3>
+                    <span>
+                        <img src="./assets/paradise-song.jpg" alt="paradise song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="queue-songs-list">
+                <div class="queue-song">
+                    <h3>21</h3>
+                    <span>
+                        <img src="./assets/On-my-way-song.png" alt="On my way song logo">
+                    </span>
+                    <p>On my way</p>
+                    <span>
+                        <i class="fa-regular fa-heart"></i>
+                    </span>
+                </div>
+            </div>
+
+        </aside>
+
+        <!-- Bottom music player -->
+
+        <div class="bottom-music-player">
+            <div class="single-track">
+                <div class="single-track-image">
+                    <img src="./assets/gangnam-style-song.png" alt="gangnam style">
+                </div>
+                <p>Gangnam Style</p>
+                <span>
+                    <i class="fa-solid fa-heart"></i>
+                </span>
+            </div>
+            <div class="main-music-player">
+                <span><i class="fa-solid fa-shuffle"></i></span>
+                <span><i class="fa-solid fa-backward"></i></span>
+                <span id="play-pause-btn"><i class="fa-solid fa-circle-pause"></i></span>
+                <span><i class="fa-solid fa-forward"></i></span>
+                <span><i class="fa-solid fa-repeat"></i></span>
+            </div>
+            <div class="other-options">
+                <span><i class="fa-solid fa-volume-high"></i></span>
+                <span><i class="fa-solid fa-volume-xmark"></i></span>
+                <span><i class="fa-solid fa-guitar"></i></span>
+                <span><i class="fa-solid fa-down-left-and-up-right-to-center"></i></span>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
